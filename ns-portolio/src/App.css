@@ -204,7 +204,7 @@
   }
 
   /************************ React-App-CSS ************************/
-  .App {
+  /* .App {
     text-align: center;
   }
 
@@ -242,7 +242,7 @@
     to {
       transform: rotate(360deg);
     }
-  }
+  } */
 
   /************************ CarouSkill CSS ************************/
   .skill {
@@ -258,7 +258,7 @@
     margin-top: -60px;
   }
 
-  .skill h5 {
+  .skill h2 {
     font-size: 45px;
     font-weight: 700;
   }
@@ -289,7 +289,6 @@
     width: 40%;
     z-index: -4;
   }
-
 
   /************************ Banner Css ************************/
   .banner {

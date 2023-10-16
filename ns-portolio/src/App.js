@@ -1,17 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
-import { Pillbar } from './components/Pillbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import { Mynavbar } from './components/Mynavbar';
 import { Banner } from './components/Banner';
 import { skillRide } from './components/Skills';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { Projects } from './components/Projects';
+
+
 
 
 function App() {
   return (
     <div className="App">
-      <Pillbar />
+      <Mynavbar />
       <Banner />
       <skillRide />
+      <Projects />
     </div>
   );
 }
