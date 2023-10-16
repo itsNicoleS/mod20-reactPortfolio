@@ -1,12 +1,12 @@
 import { Container, Row, Col } from "react-bootstrap"
 import { ArrowRightCircle } from 'react-bootstrap-icons'
-// import header-img from "../assets/img/header-img.svg";
+// import header-img from "./assets/img/header-img.svg";
 import { useState, useEffect } from 'react';
 
 export const Banner = () => {
     const [loopNum, setloopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["Web Developer", "Hot Mess", "Code Copier"];
+    const toRotate = ["React Master", "Hot Mess", "Code Copier"];
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const period = 2000;
