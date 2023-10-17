@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
-// import header-img from "./assets/img/header-img.svg";
+import headerImg from "../assets/img/header-img.svg";
 import { useState, useEffect } from 'react';
 
 export const Banner = () => {
@@ -46,8 +46,8 @@ export const Banner = () => {
                     <Col xs={12} md={6} xl={7}>
                         <span className="open">Welcome to my Page</span>
                         <h1> {`Hi I'm Nicole V. Smith `}
-                        <br></br>
-                        <span className="wrap"> {text} </span></h1>
+                            <br></br>
+                            <span className="wrap"> {text} </span></h1>
                         <p> Having had some time at my disposal when in London, I had visited the
                             British Museum, and made search among the books and maps in the library
                             regarding Transylvania; it had struck me that some foreknowledge of the
@@ -61,14 +61,14 @@ export const Banner = () => {
                             found that Bistritz, the post town named by Count Dracula, is a fairly
                             well-known place. I shall enter here some of my notes, as they may
                             refresh my memory when I talk over my travels with Mina.</p>
-                        <button onClick={() => console.log("connect")}> Let's Connect 
-                        <ArrowRightCircle size={25} />
-                    
+                        <button onClick={() => console.log("connect")}> Let's Connect
+                            <ArrowRightCircle size={25} />
+
                         </button>
                     </Col>
 
                     <Col xs={12} md={6} xl={5}>
-                        {/* <img src={'assets\img\header-img.svg'} alt="Header Img" /> */}
+                        <img src={headerImg} alt="Header Img" />
                     </Col>
 
                 </Row>

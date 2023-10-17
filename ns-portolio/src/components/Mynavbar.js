@@ -33,6 +33,21 @@ export function Mynavbar() {
       return () => window.removeEventListener("scroll", onScroll);
 
   }, []);
+  const navNameStyle = { 
+    
+    backgroundColor: 'transparent',
+    borderRadius: '0',
+    padding: '17px, 0',
+    color: '#fff',
+    width: '100%',
+    fontSize: '17px',
+    letterSpacing: '0.8px',
+    fontWeight: '500',
+    position: 'relative',
+   
+    textAlign: 'center',
+    zIndex: '0',
+  };
 
   const onUpdateActiveLink = (value) => {
       setActiveLink(value);
@@ -43,7 +58,7 @@ export function Mynavbar() {
         <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
           <Container>
             <Navbar.Brand href="/">
-              <img src={logo} alt="Logo" />
+              <span style={navNameStyle} >Nicole V. Smith </span> 
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav">
               <span className="navbar-toggler-icon"></span>
