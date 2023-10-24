@@ -1,12 +1,12 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
-import headerImg from "../assets/img/header-img.svg";
+import space_mermaid from "../assets/img/space_mermaid.png";
 import { useState, useEffect } from 'react';
 
 export const Banner = () => {
     const [loopNum, setloopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["React Master", "Hot Mess", "Code Copier"];
+    const toRotate = ["React Master", "CSS Learner", "Code Copier"];
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const period = 2000;
@@ -48,19 +48,15 @@ export const Banner = () => {
                         <h1> {`Hi I'm Nicole V. Smith `}
                             <br></br>
                             <span className="wrap"> {text} </span></h1>
-                        <p> Having had some time at my disposal when in London, I had visited the
-                            British Museum, and made search among the books and maps in the library
-                            regarding Transylvania; it had struck me that some foreknowledge of the
-                            country could hardly fail to have some importance in dealing with a nobleman
-                            of that country. I find that the district he named is in the extreme east of
-                            the country, just on the borders of three states, Transylvania, Moldavia and
-                            Bukovina, in the midst of the Carpathian mountains; one of the wildest and
-                            least known portions of Europe. I was not able to light on any map or work
-                            giving the exact locality of the Castle Dracula, as there are no maps of
-                            this country as yet to compare with our own Ordnance Survey maps; but I
-                            found that Bistritz, the post town named by Count Dracula, is a fairly
-                            well-known place. I shall enter here some of my notes, as they may
-                            refresh my memory when I talk over my travels with Mina.</p>
+                        <p> I've spent the last eight years translating complex topics
+                            from an array of clients as a barber. But in that time,
+                            I've realized that what really drives me is the user's
+                            experience. It's the lightbulb moment behind my career
+                            change to UX design. I believe I'll make a strong
+                            addition to your team because my work has largely
+                            put the user front and center, and now I'm interested
+                            in focusing on a different facet of that goal.</p>
+
                         <button onClick={() => console.log("connect")}> Let's Connect
                             <ArrowRightCircle size={25} />
 
@@ -68,7 +64,7 @@ export const Banner = () => {
                     </Col>
 
                     <Col xs={12} md={6} xl={5}>
-                        <img src={headerImg} alt="Header Img" />
+                        <img src={space_mermaid} alt="Header Img" />
                     </Col>
 
                 </Row>
