@@ -36,9 +36,9 @@ If your README is long, add a table of contents to make it easy for users to fin
 ## Usage
 
     ```md
-    ![Header](assets/img/NSPortfolio3.png)
-    ![Middle](assets/img/NSPortfolio2.png)
-    ![Footer](assets/img/NSPortfolio1.png)
+    ![Header](./src/assets/img/NSPortfolio3.png)
+    ![Middle](./src/assets/img/NSPortfolio2.png)
+    ![Footer](./src/assets/img/NSPortfolio1.png)
     ```
 
 ## Credits
