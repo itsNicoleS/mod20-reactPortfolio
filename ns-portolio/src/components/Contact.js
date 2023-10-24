@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import commBubbles from "../assets/img/comm-bubbles.jpg";
 
 export const Contact = () => {
-    const { status, setStatus } = useState({});
+const { status, setStatus } = useState({});
     return (
         <section className="contact" id="connect">
             <Container>
@@ -17,29 +17,24 @@ export const Contact = () => {
                         <form action="mailto:nicolevsmith87@gmail.com">
                             <Row>
                                 <Col sm={6} className="px-1">
-                                  <h3><a href="">Currently Residing: Portland, OR</a></h3>
+                                    <h3><a href="">Currently Residing: Portland, OR</a></h3>
                                 </Col>
                                 <Col sm={6} className="px-1">
-                                <h3><a href="">Phone: 503.929.1234.</a></h3>                                    
-                                </Col>
-                                <Col sm={6} className="px-1">
-                                    
-                                <h3><a href="mailto:nicolevsmith87@gmail.com">Email: email@gmail.com</a></h3>       
+                                    <h3><a href="">Phone: 503.929.1234.</a></h3>
                                 </Col>
                                 <Col sm={6} className="px-1">
 
-                                <h3><a href="">Pronouns: she/her</a></h3>       
-                                    
+                                    <h3><a href="mailto:nicolevsmith87@gmail.com">Email: email@gmail.com</a></h3>
+                                </Col>
+                                <Col sm={6} className="px-1">
+
+                                    <h3><a href="">Pronouns: she/her</a></h3>
+
                                 </Col>
                                 <Col>
                                     <button type="submit"><span>Send me an email! </span> </button>
                                 </Col>
-                                {/* {
-                                    status.message &&
-                                    <Col>
-                                        <p className={status.success === false ? "danger" : "success"}> {status.message}</p>
-                                    </Col>
-                                } */}
+
                             </Row>
                         </form>
                     </Col>

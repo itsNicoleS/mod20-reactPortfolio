@@ -15,19 +15,19 @@ export function Projects() {
             title: "Eatery App",
             description: "Basic App for conditional Menu rendering. If signed in, gives access to Secret Menu. ",
             imgUrl: projImg1,
-            link: "https://github.com/itsNicoleS/EATTHINGS"
+          
         },
         {
             title: "Social Whiskers App",
             description: "Pet Adoption App that also has voting.",
             imgUrl: projImg2,
-            link: "https://github.com/edwinalban/Social-Whiskers-Pet-Adoption"
+            
         },
         {
             title: "Travel Planner App",
             description: "Travel App featuring dollar conversions and weather",
             imgUrl: projImg3,
-            link: "https://github.com/efogerson1/Travel-Planner"
+            
         },
     ];
 
@@ -36,11 +36,13 @@ export function Projects() {
             <Container>
                 <Row>
                     <Col>
-                        <h2>Projects</h2>
+                        <h2>Portfolio</h2>
                         These are some group projects I was involved in, each with a different
                         focus. At seperate sections in the bootcamp we were grouped up, and we
                         each had an idea for our projects, but as always it's all about
-                        implementatioin.
+                        implementation.
+                        <br />
+                       <a href= "https://github.com/itsNicoleS/EATTHINGS" > EATERY APP  </a> || <a href="https://github.com/edwinalban/Social-Whiskers-Pet-Adoption"> SOCIAL WHISKERS </a> || <a href="https://github.com/efogerson1/Travel-Planner"> TRAVEL PLANNER </a>
 
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
 

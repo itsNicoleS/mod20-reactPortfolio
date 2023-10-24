@@ -57,10 +57,12 @@ export const Banner = () => {
                             put the user front and center, and now I'm interested
                             in focusing on a different facet of that goal.</p>
 
-                        <button onClick={() => console.log("connect")}> Let's Connect
+                        <button onClick={() => {
+                            window.open("mailto:nicolevsmith87@gmail.com");
+                        }}> Let's Connect
                             <ArrowRightCircle size={25} />
-
                         </button>
+
                     </Col>
 
                     <Col xs={12} md={6} xl={5}>
