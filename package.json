@@ -1,8 +1,8 @@
 {
-  "homepage": "https://itsNicoleS.github.io/mod20-reactPortfolio",
+  "homepage": "https://itsNicoleS.github.io/mod20-reactPortfolio/public",
   "name": "ns-portolio",
   "version": "0.1.0",
-  
+
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
