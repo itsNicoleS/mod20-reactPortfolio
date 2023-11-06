@@ -6,7 +6,7 @@ import meter1 from "../assets/img/meter1.svg";
 import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
 import colorSharp from "../assets/img/color-sharp.png";
-import res from "../assets/CVresume/nicole_smith.pdf";
+
 
 export const SkillRide = () => {
     const responsive = {
@@ -47,7 +47,7 @@ export const SkillRide = () => {
                                 preparation, I feel confident that
                                 I will make a strong addition to
                                 your team from the very start. </p>
-        <a href={res}> Download My Resume/CV.  </a>
+      
                         </div>
                     </Col>
                     <Col>
