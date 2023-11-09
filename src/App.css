@@ -301,7 +301,7 @@
   }
 
   .banner .tagline {
-    font-weight: 700;
+    font-weight: 500;
     letter-spacing: 0.8px;
     padding: 8px 10px;
     background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
@@ -313,7 +313,7 @@
 
   .banner h1 {
     font-size: 65px;
-    font-weight: 700;
+    font-weight: 500;
     letter-spacing: 0.8px;
     line-height: 1;
     margin-bottom: 20px;
