@@ -6,10 +6,10 @@ import { useState, useEffect } from 'react';
 export const Banner = () => {
     const [loopNum, setloopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["React Learner", "Web App Building", "Code Copier"];
+    const toRotate = [".........."];
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
-    const period = 2000;
+    const period = 5000;
 
     useEffect(() => {
         let ticker = setInterval(() => {
@@ -45,7 +45,7 @@ export const Banner = () => {
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
                         <span className="open">Welcome to my Page</span>
-                        <h1> {`Hi, I'm Nicole S. `}
+                        <h1> {`About Me...`}
                             <br></br>
                             <span className="wrap"> {text} </span></h1>
                         <p> I've spent the last eight years translating complex topics
@@ -55,7 +55,7 @@ export const Banner = () => {
                             change to UX design. I believe I'll make a strong
                             addition to your team because my work has largely
                             put the user front and center, and now I'm interested
-                            in focusing on a different facet of that goal.</p>
+                            in focusing on a different facet of that goal. Art cred: @jessiSheron</p>
 
                         <button onClick={() => {
                             window.open("mailto:nicolevsmith87@gmail.com");
