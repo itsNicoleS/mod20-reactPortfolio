@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react';
 export const Banner = () => {
     const [loopNum, setloopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = [".........."];
+    const toRotate = [". . . . . ."];
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const period = 5000;
@@ -45,7 +45,7 @@ export const Banner = () => {
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
                         <span className="open">Welcome to my Page</span>
-                        <h1> {`About Me...`}
+                        <h1> {`About Me. . . . . `}
                             <br></br>
                             <span className="wrap"> {text} </span></h1>
                         <p> I've spent the last eight years translating complex topics
